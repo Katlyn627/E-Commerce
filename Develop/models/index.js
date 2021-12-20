@@ -6,12 +6,16 @@ const ProductTag = require('./ProductTag');
 const { FOREIGNKEYS } = require('sequelize/types/lib/query-types');
 
 // Products belongsTo Category
-Product.belongsTo(Category{
+Product.belongsTo(Category, {
   foreignKey: 'product_id',
   onDelete: 'CASCADE',
 });
 
 // Categories have many Products
+Category.hasMany(Product, {
+  foreignKey: 'product_id',
+  onDelete: 'CASCADE',
+})
 
 // Products belongToMany Tags (through ProductTag)
 Product.belongsToMany(Tag, {
@@ -32,8 +36,6 @@ Tag.belongsToMany(Product, {
   // Define an alias for when data is retrieved
   as: 'product_tag'
 });
-
-}
 
 
 module.exports = {
