@@ -12,8 +12,11 @@ ProductTag.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    name:{
-      type: DataTypes.STRING
+    tag_id:{
+      type: DataTypes.INTEGER,
+      allowNull: false,
+      primaryKey: true,
+      autoIncrement: true,
     }
     // define columns
   },
