@@ -3,6 +3,10 @@
 ## **Video Walkthrough of Project**
 
 
+![Tags E-Commerce (1)](https://user-images.githubusercontent.com/86095070/147151336-b64e489d-2646-4671-97c6-9063db6692b9.gif)
+
+![Products E-Commerce (1)](https://user-images.githubusercontent.com/86095070/147151433-2bab0fc3-3a00-418f-bf9a-cac834cd8abf.gif)
+
 
 ## **Description**
  
@@ -32,12 +36,14 @@ This project is licensed under the GPL license.
 
 ## **Tests**
 To run tests, run the following command:
-test
+npm run test
 
 ## **Questions**
 If you have any questions about this repo, open an issue or contact me directly at: [katlynboches@gmail.com](mailto:katlynboches@gmail.com). You can find more of my work at [Katlyn627](https://www.github.com/Katlyn627).
 
 ## **Deployment** 
 
-Github: You can find the deployment link at [Katlyn627](https://www.github.com/Katlyn627).
+Github: You can find the deployment link at [Katlyn627](https://github.com/Katlyn627/E-Commerce-Homework).
+
+Google Drive: You can find the folder for the video walk through at (https://drive.google.com/drive/folders/1KVo2wm0b-A4uS1CpBRvvdL84Wq6p27vi?usp=sharing)
 
